@@ -1,0 +1,78 @@
+{
+  "headerSection": {
+    "companyLogo": {
+      "text": "SkyLine"
+    },
+    "loginButton": {
+      "text": "Login",
+      "href": "/login"
+    },
+    "logoutButton": {
+      "text": "Logout"
+    },
+    "settingsIcon": {
+      "tooltip": "Settings"
+    },
+    "menuIcon": {
+      "tooltip": "Menu"
+    },
+    "settingsSideBar": {
+      "title": "Settings",
+      "darkMode": {
+        "title": "Dark Mode"
+      },
+      "items": [
+        {
+          "name": "myaccount",
+          "title": "My Account",
+          "icon": "Person",
+          "href": "/profile"
+        },
+        {
+          "name": "myorderhistory",
+          "title": "My Order History",
+          "icon": "History",
+          "href": "/orders"
+        },
+        {
+          "name": "shoppingcart",
+          "title": "Cart",
+          "icon": "ShoppingCart",
+          "href": "/cart"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "homePage": {
+      "placeholder": "HomePage"
+    },
+    "loginPage": {
+      "header": "Sign In",
+      "icon": "",
+      "username": {
+        "htmlId": "username",
+        "text": "Username",
+        "error": {
+          "isRequired": "Please enter your username",
+          "isInvalid": ""
+        },
+        "placeholder": "",
+        "type": "text"
+      },
+      "password": {
+        "htmlId": "password",
+        "text": "Password",
+        "error": {
+          "isRequired": "Please enter your password",
+          "isInvalid": ""
+        },
+        "placeholder": "",
+        "type": "password"
+      },
+      "submit": {
+        "text": "Submit"
+      }
+    }
+  }
+}

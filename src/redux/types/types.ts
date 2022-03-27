@@ -1,0 +1,2 @@
+export const TOOGLE_DARK_MODE = "TOOGLE_DARK_MODE";
+export const SET_IS_LOADING = "SET_IS_LOADING";
